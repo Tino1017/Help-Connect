@@ -1,0 +1,49 @@
+.button-primary {
+  background-color: $primary-color;
+  color: $white-color;
+  &:hover {
+    background-color: lighten($primary-color, 15);
+  }
+}
+
+.button-secondary {
+  border: 1.3px solid $primary-color;
+  color: $primary-color;
+  font-weight: 500;
+
+  &:hover {
+    color: lighten($primary-color, 15);
+  }
+}
+
+.button-primary,
+.button-secondary {
+  $SIZE: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0.4rem 0.6rem;
+  // width: $SIZE;
+  min-width: $SIZE;
+  border-radius: 5px;
+  @include transition;
+}
+
+// GOOGLE BUTTON
+.google-login-button {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+
+.google-logo {
+  $SIZE: 16px;
+  width: $SIZE;
+  height: $SIZE;
+  margin-right: 10px;
+}

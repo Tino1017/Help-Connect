@@ -1,0 +1,64 @@
+.header-container {
+  font-family: $primary-font;
+
+  &__top {
+    color: $primary-color;
+    text-transform: capitalize;
+  }
+
+  &__center {
+    color: $primary-color;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 35rem;
+    margin: 0.8rem auto;
+  }
+
+  p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: $primary-color-light;
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (width <= 700px) {
+  .header-container {
+    &__center {
+      font-size: 5vw;
+    }
+  }
+}
+
+.learn-container {
+  padding: 6rem 1rem;
+  h6 {
+    color: $primary-color;
+    text-transform: capitalize;
+  }
+
+  h2 {
+    color: $primary-color;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 35rem;
+    margin: 0.7rem 0;
+  }
+
+  p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: $primary-color-light;
+    max-width: 500px;
+    margin-bottom: 0.7rem;
+  }
+}

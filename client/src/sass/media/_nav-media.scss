@@ -1,0 +1,21 @@
+@media screen and (width <= 900px) {
+  .nav-container {
+    padding: 1.8rem;
+  }
+}
+@media screen and (width > 700px) {
+  .menu {
+    display: none;
+  }
+}
+@media screen and (width < 700px) {
+  .hide {
+    display: none;
+  }
+}
+
+@media screen and (width <= 700px) {
+  .inner-menu {
+    display: none;
+  }
+}

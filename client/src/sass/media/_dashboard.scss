@@ -1,0 +1,18 @@
+@media screen and (width <= 1326px) {
+  .hide-small-screen {
+    display: none;
+  }
+  .dashboard-container__main {
+    width: 100% !important;
+  }
+}
+
+// DASHBOARDS STUDENT
+@media screen and (width <= 600px) {
+  .dashboard-container__main {
+    padding: 2rem 1.3rem !important;
+  }
+  .course-media {
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+@media screen and (width <= 1114px) {
+  .footer-container {
+    &__top {
+      padding: 1.8rem 2.8rem;
+    }
+    &__bottom {
+        padding: 2.8rem;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.feature-container {
+  font-family: $primary-font;
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding: 1rem;
+
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    flex-wrap: wrap;
+
+    &-image-container {
+      &__image {
+        height: auto;
+        max-width: 20rem;
+        object-fit: cover;
+      }
+    }
+
+    &-information {
+
+      &__header {
+        margin-bottom: .5rem;
+
+        &-icon {
+          font-size: 1.5rem;
+          color: $primary-color;
+        }
+        &-head {
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          color: $primary-color;
+        }
+      }
+
+    //   &__para {
+    //     margin-left: rem;
+    //   }
+    }
+  }
+}

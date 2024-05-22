@@ -1,0 +1,37 @@
+// ABSTRACT
+@import "./abstract/variables";
+@import "./abstract/transition-mixin";
+// BASE
+@import "./base/tailwindcss";
+@import "./base/typography";
+@import "./base/global";
+// COMPONENTS
+@import "./components/linkTag";
+@import "./components/button";
+@import "./components/hero";
+@import "./components/course";
+@import "./components/features";
+@import "./components/header";
+@import "./components/learn";
+@import "./components/pricing";
+@import "./components/studentReview";
+@import "./components/loader";
+@import "./components/spinner";
+// LAYOUT
+@import "./layout/navigation";
+@import "./layout/footer";
+// MEDIA
+@import "./media/nav-media";
+@import "./media/hero-media";
+@import "./media/features-media";
+@import "./media/footer-media";
+@import "./media/dashboard";
+// PAGES
+@import "./pages/register-information";
+@import "./pages/register";
+@import "./pages/dashboard.lecturer";
+@import "./pages/verify";
+@import "./pages/moreinfo";
+// @import "./pages/Contact";
+// @import "./pages/FAQ";
+// @import "./pages/CommunityPage";

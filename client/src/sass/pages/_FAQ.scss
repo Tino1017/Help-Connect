@@ -1,0 +1,33 @@
+
+.FAQ{
+    background-color: #040273;
+    color:white;
+    font-family: 'Poppins',sans-serif;
+}
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #040273; 
+    font-family: 'Poppins',sans-serif;
+    min-height: 100vh;
+  }
+  h1{
+    text-align: center;
+    padding-bottom:50px ;
+    padding-top: 20px;
+  }
+  .question{
+    text-align: center;
+    font-size: 18px;
+  }
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-weight: bold;
+  }
+  
+  .answer {
+    margin-top: 8px;
+  }

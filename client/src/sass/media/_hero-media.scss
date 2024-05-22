@@ -1,0 +1,47 @@
+@media screen and (width <= 1115px) {
+  .hero-container {
+    .user-cards {
+      display: none;
+    }
+    &__main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    &__inner {
+      h1,
+      p,
+      .form {
+        text-align: center;
+      }
+    }
+  }
+}
+@media screen and (width <= 500px) {
+  .email-container {
+    border: none;
+  }
+  .email-btn,
+ .email {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 5px;
+ }
+  
+  .hero-container__main {
+
+    .main-header {
+      font-size: 7vw;
+    }
+  }
+  .element {
+    display: none;
+  }
+}
+
+@media screen and (width <= 900px) {
+  .hero-container__main {
+    padding: 1.8rem;
+  }
+}

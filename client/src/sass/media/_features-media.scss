@@ -1,0 +1,8 @@
+@media screen and (width <= 900px) {
+  .feature-container__inner {
+    gap: 1rem;
+  }
+  .inner-reverse {
+    flex-direction: column-reverse;
+  }
+}
