@@ -47,7 +47,7 @@ export async function createMeeting({ }: { token: string }) {
     body: JSON.stringify({}),
   });
 
-  //Destructuring the roomId from the response
+  //Destructuring  roomId from the response
   const { roomId }: { roomId: string } = await res.json();
   return roomId;
 }
