@@ -37,7 +37,7 @@ export const authToken = keys.VIDEO_SDK_API_KEY;
 
 
 
-export async function createMeeting({ token }: { token: string }) {
+export async function createMeeting({ }: { token: string }) {
   const res = await fetch(`https://api.videosdk.live/v2/rooms`, {
     method: "POST",
     headers: {
