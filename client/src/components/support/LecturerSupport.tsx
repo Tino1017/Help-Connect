@@ -1,10 +1,10 @@
 import { FC, useContext } from "react";
 import { FetchUserDataContext } from "../../context/FetchUserData.context";
 import { IDataObject } from "../../context/Context.config";
-import { greetUserBasedOnTime } from "../../global/Functions.global";
-import { DashboardHeader } from "../UI/DashboardHeader";
+// import { greetUserBasedOnTime } from "../../global/Functions.global";
+// import { DashboardHeader } from "../UI/DashboardHeader";
 import { DashboardUI } from "../UI/DashboardUI";
-import { Footer } from "../Landing/Landing.imports";
+// import { Footer } from "../Landing/Landing.imports";
 
 // const FAQS: { question: string; answer: string }[] = [
 //   {
@@ -34,7 +34,7 @@ export const LecturerSupport: FC = () => {
 
   return (
     <>
-      <DashboardUI>
+      <DashboardUI children={undefined}>
         {/* <header className="flex items-center justify-between">
           <div>
             <DashboardHeader
@@ -45,7 +45,7 @@ export const LecturerSupport: FC = () => {
             />
           </div>
         </header> */}
-{/* 
+        {/* 
         <div className="FAQ-Section mb-10">
           <div className="FAQ">
             <div className="faq-container">
